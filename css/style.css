@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+html{
+  box-sizing: border-box;
+}
+
+:root{
+    --color-principal:#6096B4;
+    --color-secundario: #EEE9DA;
+    --color-terciario: #BDCDD6;
+    --font-size-titles:40px ;
+    --font-size-parrafos:20px ;
+}
+
+*{
+  margin: 0;
+
+  padding: 0;
+}
+
+h1,h2,h3,h4{
+  
+  font-family: 'Alata', sans-serif;
+
+}
+
+h4,h5,h6,h7{
+
+  font-family: 'Nanum Gothic', sans-serif;
+
+}
+
+p,a,li,label,input{  
+  
+  font-family: 'Tinos', serif;
+
+}
+
+
+.section1{
+position: relative;
+width: 100%;
+padding: 200px;
+background: var(--color-principal);
+border: 2px solid black;
+
+}
+
+#hero .cont-perfil img{
+    position: absolute;
+    height: 280px;  
+   
+}
+
+
+
+
+
+#hero .cont-datos h2{
+
+  text-align: center;
+  padding-bottom: 12px;
+
+}
+
+#hero .cont-datos p{
+  position: relative;
+ 
+  text-align: center;
+
+}
+
+#hero .cont-datos a img{
+ position: relative;
+ left: 150px;
+ padding-left: 20px;
+ height: 75px;
+}
+
+
+
+#hero .cont-perfil{
+  position: relative;
+  width: 250px;
+  padding-bottom: 100px;
+
+}
+
+/* #hero .cont-perfil::before{ 
+
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  top: -40px;
+  left: 40px;
+  background: var(--primary-color);
+  z-index: 1;
+
+/* } */
+
+header .bg-body-portafolio{
+  background: var(--color-secundario);
+}
+
+ /* seccion2 */
+
+ #manejo{
+  width: 100%;
+  position: relative;
+  padding: 50px 0 100px;
+  text-align: center;
+  background: var(--color-secundario);
+}
+
+#manejo h2{
+color: black;
+font-size: var(--font-size-titles);
+font-weight: 700;
+text-align: center;
+}
+
+#manejo img{
+  height: 60px;
+}
+
+
+#manejo p{
+  color: black;
+  font-size: var(--font-size-parrafos);
+  text-align: center;
+}
+
+#manejo .row{
+  padding-top: 70px;
+
+}
+
+#manejo .card-services{
+  background: var(--color-principal);
+  border-radius: 4px;
+  position: relative;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  text-align: left;
+  transition: .4s;
+  max-width: 280px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+
+
+#manejo .card-services h3{
+  text-align: right;
+  color: black;
+  font-size: 40px;
+  margin-bottom: 20px;
+  
+}
+
+#manejo .card-services h4{
+  color: black;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 15px;
+  line-height: 30px;
+}
+
+#manejo .card-services p{
+  font-size: 15px;
+  color: black;
+  text-align: left;
+  margin-bottom: 15px;
+  
+}
+
+#manejo .card-services a{
+  color: black;
+  text-align: left;
+  display: inline-block ;
+  font-size: 16px;
+  text-decoration: none;
+  border-bottom: 2px solid black
+
+}
+
+#manejo .card-services:hover{
+  background: var(--color-terciario);
+}
+
+/* section 3*/
+
+#section3{
+  background: var(--color-principal);
+  text-align: center;
+  width: 100%;
+  position: relative;
+  padding: 40px;
+  color: black;
+}
+
+#section3 img{
+  height: 250px;
+  padding-bottom: 40px;
+
+}
+
+#section3 h1{
+  padding-bottom: 40px;
+  font-size: var(--font-size-titles);
+}
+
+#section3 h2{
+  padding-bottom: 40px;
+  text-align: center;
+  font-size: var(--font-size-parrafos);
+}
+
+
+/* section 4 */
+
+#section4{
+  background: #EEE9DA;
+  position: relative;
+width: 100%;
+padding: 200px;
+transition: .5s;
+border: 2px solid black;
+
+}
+
+
+#section4 img{
+  height: 400px;
+  width: 400px;
+}
+
+#section4 h2{
+  text-align: center;
+  padding-bottom: 70px;
+
+}
+
+
+#section4 p{
+  font-size: var(--font-size-parrafos);
+  font-weight: 100;
+  padding-top: 75px;
+
+}
+
+
+#fin{
+  text-align: center;
+  background: var(--color-principal);
+  width: 100%;
+  color: black;
+}
+
+
+
+
+
+
+
